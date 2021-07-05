@@ -1,0 +1,29 @@
+#========= VBF temp
+imax 1  number of channels
+jmax 13  number of backgrounds
+kmax * number of nuisance parameters (sources of systematic uncertainties)
+# we have just one channel and will use some dummy data
+bin vbf_mu
+observation 0
+bin				vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		vbf_mu		
+process				SIG		DPS_VV		EWK_VV		VV		WJets		DYJets		Higgs		QCD		VVV		ttX		EWK_V		SingleTop	Vgamma		tt		
+process				0		1		2		3		4		5		6		7		8		9		10		11		12		13		
+rate		0.0000084402    0.0000000000    0.4838660000    0.9848570000    0.1548310000    0.0082582300    0.0000084402    0.0000000000    0.0000000000    0.0418853000    0.0000000000    0.0000000000    0.0166499000    2.9319800000    
+
+lumi		lnN		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		1.025		
+scale		lnN		1.004		-		-		-		-		-		-		-		-		-		-		-		-		-		
+pdf   		lnN		1.021		-		-		-		-		-		-		-		-		-		-		-		-		-		
+Trig00		lnN		1.03		-		-		-		-		-		-		-		-		-		-		-		-		-		
+ttxs		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
+vvxs		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
+stx		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
+dyxs		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
+MUID		lnN		1.02		-		-		-		-		-		-		-		-		-		-		-		-		-		
+ELID		lnN		1.02		-		-		-		-		-		-		-		-		-		-		-		-		-		
+TAUID		lnN		1.04		-		-		-		-		-		-		-		-		-		-		-		-		-		
+MMS		lnN		1.02		-		-		-		-		-		-		-		-		-		-		-		-		-		
+EES		lnN		1.02		-		-		-		-		-		-		-		-		-		-		-		-		-		
+BTAG		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
+JER		lnN		1.10		-		-		-		-		-		-		-		-		-		-		-		-		-		
+JER		lnN		1.10		-		-		-		-		-		-		-		-		-		-		-		-		-		
+ISR		lnN		-		-		-		-		-		-		-		-		-		-		-		-		-		-		
